@@ -1,0 +1,17 @@
+<html>
+<body>
+<button onclick="checkConsole('ps3')">script ps3 or ps4</button>
+<script>
+function checkConsole(console) {
+  if (console === 'ps3') {
+    alert("You are living in the past!");
+  } else if (console === "ps4") {
+    alert("You are up to date!");
+  } else {
+    alert("Invalid input!");
+  }
+}
+
+</script>
+</body>
+</html>
